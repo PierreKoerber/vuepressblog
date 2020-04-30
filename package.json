@@ -1,0 +1,21 @@
+{
+  "name": "pierrekoerber",
+  "version": "0.0.1",
+  "description": "Le blog de Pierre",
+  "main": "index.js",
+  "authors": {
+    "name": "Pierre Koerber",
+    "email": "pierre.koerber@gmail.com"
+  },
+  "repository": "/Pierre Koerber",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog",
+    "docs:build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.3.1",
+    "@vuepress/theme-blog": "^2.1.0"
+  }
+}
